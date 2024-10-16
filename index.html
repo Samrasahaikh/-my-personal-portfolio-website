@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>personal portfolio</title>
+</head>
+<body>
+    <!-- navbar section  -->
+    <nav>
+    <div class="nav-container">
+        <div class="logo"data-aos="zoom-in" data-aos-duration="1500">
+        Samra<span> Moinuddin</span>
+    </div>
+    <div class="links">
+        <div class="link"data-aos="fade-up"data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+        <div class="link"data-aos="fade-up"data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+        <div class="link"data-aos="fade-up"data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
+        <div class="link"data-aos="fade-up"data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
+        <div class="link"data-aos="fade-up"data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+    </div>
+    <i class="fa-solid fa-bars humburg" onclick="hamburg()"></i>
+</div>
+
+<!-- dropdown sectiion  -->
+<div class="dropdown">
+    <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+    </div>
+</div>
+</nav>
+
+<!-- hero section  -->
+<section>
+    <div class="main-container">
+    <div class="image" data-aos="zoom-in" data-aos-duration="3000" >
+        <img src="imgs/img5.jpg" alt="profile-picture">
+    </div>
+    <div class="content">
+        <h1 data-aos="fade-left"data-aos-duration="1500" data-aos-delay="700">Hi I'm <span>Samra Moinuddin</span></h1>
+        <div class="typewriter" data-aos="fade-right"data-aos-duration="1500" data-aos-delay="900">I'm a<span class="typewriter-text"></span><label for=""></label>
+        </div>
+            <p data-aos="flip-down"data-aos-duration="1500" data-aos-delay="1100">with a passion for creating visually compelling and highly functional websites. With expertise in HTML, CSS, JavaScript, and frameworks like React and Next.js, I build responsive and user-friendly interfaces. My background in graphic design allows me to seamlessly blend aesthetic creativity with technical precision, ensuring that my projects not only look great but also offer an engaging and intuitive user experience. I am dedicated to delivering high-quality work that balances both performance and design.</p>
+    <div class="social-links">
+
+        <a href="https://github.com/Samrasahaikh" target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1300">
+            <i class="fa-brands fa-github"></i></a>
+
+        <a href="https://linkedin.com/in/samra-shaikh-7164142b6"target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1400">
+            <i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="https://facebook.com" target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1500">
+            <i class="fa-brands fa-facebook"></i></a>
+
+        <a href="https://youtube.com" target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1600">
+            <i class="fa-brands fa-youtube"></i></a>
+
+        <a href="https://instagram.com" target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1700">
+            <i class="fa-brands fa-instagram"></i></a>
+
+        <a href="https://twitter.com" target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1800">
+            <i class="fa-brands fa-twitter"></i></a>
+
+            <a href="https://https://wa.me/923168596692" target="_blank" data-aos="fade-up"data-aos-duration="1500" data-aos-delay="1800">
+                <i class="fa-brands fa-whatsapp"></i></a>    
+            
+    </div>
+    <div class="btn" data-aos="zoom-in"data-aos-duration="1500" data-aos-delay="1300">
+        <button onclick="window.location.href='mailto:shaikhsamra855@gmail.com'">Contact Me</button>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- footer section -->
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Samra Moinuddin. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="mailto:shaikhsamra855@gmail.com" target="_blank">Contact</a>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>
+<script src="script.js"></script>
+</body>
+</html>
